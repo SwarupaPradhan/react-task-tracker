@@ -1,0 +1,55 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #f5f7fa;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 500px;
+  margin: 40px auto;
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* subtle elevation */
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  gap: 8px;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #d1d5db; /* subtle gray */
+  border-radius: 4px;
+}
+
+button {
+  cursor: pointer;
+  background-color: #4f46e5; /* subtle purple */
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background-color: #4338ca; /* slightly darker on hover */
+}
+
+li span.completed {
+  text-decoration: line-through;
+  color: #6b7280; /* gray text */
+}
+.completed {
+  text-decoration: line-through;
+  color: #6b7280; /* gray text for completed tasks */
+}
+
