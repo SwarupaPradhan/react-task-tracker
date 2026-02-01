@@ -14,8 +14,6 @@ A simple task management application built with React and TypeScript.
 - Context API
 - CSS
 
-## 📸 Screenshot
-(Add a screenshot here)
 
 ## ▶️ Run locally
 ```bash
